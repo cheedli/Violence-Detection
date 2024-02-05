@@ -12,9 +12,9 @@ import smtplib
 app = Flask(__name__)
 HOST = "smtp-mail.outlook.com"
 PORT = 587
-FROM_EMAIL = "chedhly.ghorbel@esprit.tn"
-TO_EMAIL = "medali.farhat@esprit.tn"
-PASSWORD = "211JMT9635C "
+FROM_EMAIL = "FROM.EMAIL@MAIL.COM"
+TO_EMAIL = "TO.EMAIL@MAIL.COM"
+PASSWORD = "PUT YOUR PASSWORD HERE"
 
 MESSAGE = """Subject: Violence Detection
 Hi there,
